@@ -1,5 +1,5 @@
 import { screen, render } from "@testing-library/react";
-import RepositoriesSummary from "./RepositoriesSummary";
+import RepositoriesSummary from "../repositories/RepositoriesSummary";
 
 test("Check whether language of project is printed", () => {
   const repository = {
